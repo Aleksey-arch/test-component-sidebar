@@ -657,6 +657,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }
   }
   &.closed {
+    justify-content: center;
+    & img {
+      margin-right: 0;
+    }
     & span {
       display: none;
     }
@@ -686,6 +690,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     align-items: center;
     width: 74px;
     transition: width 0.3s;
+    padding: 20px 10px;
   }
 `,Cq=x3.div`
   display: flex;
