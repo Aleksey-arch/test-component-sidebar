@@ -1,0 +1,26 @@
+export const theme = {
+  dark: {
+    colorSidebarBackgroundDefault: '#202127',
+    colorSidebarBorder: '#303033',
+    colorSidebarBackgroundHover: '#2D2E34',
+    colorSidebarBackgroundActive: '#393A3F',
+    colorTextDefault: '#f0f2ff',
+    colorTextHover: '#f0f2ff',
+    colorTextActive: '#f0f2ff',
+    colorTextLogoDefault: '#3B82F6',
+    colorButtonBackgroundDefault: '#202127',
+    colorButtonBackgroundActive: '#4B5966',
+  },
+  light: {
+    colorSidebarBackgroundDefault: '#fff',
+    colorSidebarBorder: '#d9dcdc',
+    colorSidebarBackgroundHover: '#f0f2ff',
+    colorSidebarBackgroundActive: '#f0f2ff',
+    colorTextDefault: '#97a5b9',
+    colorTextHover: '#091b31',
+    colorTextActive: '#0000b5',
+    colorTextLogoDefault: '#0000b5',
+    colorButtonBackgroundDefault: '#fff',
+    colorButtonBackgroundActive: '#e2e8f0',
+  },
+};
