@@ -190,7 +190,7 @@ const BottomRoute = styled.div`
 `;
 
 const Sidebar = ({ theme }) => {
-  const [isOpened, setIsOpened] = useState(true);
+  const [isOpened, setIsOpened] = useState(false);
   const [selectedRoute, setSelectedRoute] = useState(null);
   const conditionIsOpened = {
     opened: isOpened,
