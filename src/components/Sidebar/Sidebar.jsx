@@ -71,6 +71,10 @@ const ContainerLogo = styled.div`
     }
   }
   &.closed {
+    justify-content: center;
+    & img {
+      margin-right: 0;
+    }
     & span {
       display: none;
     }
@@ -101,6 +105,7 @@ const ContainerSidebar = styled.div`
     align-items: center;
     width: 74px;
     transition: width 0.3s;
+    padding: 20px 10px;
   }
 `;
 const ContainerRoutes = styled.div`
